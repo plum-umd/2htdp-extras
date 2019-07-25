@@ -15,4 +15,11 @@ This package implements "extras" for the 2htdp libraries.
 (require 2htdp/image/colors) 
 ; colors : [Listof String]
 ; A list of all color names
+
+
+(require 2htdp/universe/bundle)
+; bundle-state : Bundle -> UniverseState
+; bundle-mail : Bundle -> [Listof Mail]
+; bundle-bad : Bundle -> [Listof Mail]
+; Accessors for bundle structures.
 ```
