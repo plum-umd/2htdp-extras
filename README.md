@@ -20,6 +20,6 @@ This package implements "extras" for the 2htdp libraries.
 (require 2htdp/universe/bundle)
 ; bundle-state : Bundle -> UniverseState
 ; bundle-mail : Bundle -> [Listof Mail]
-; bundle-bad : Bundle -> [Listof Mail]
+; bundle-bad : Bundle -> [Listof IWorld]
 ; Accessors for bundle structures.
 ```
